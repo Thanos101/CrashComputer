@@ -13,9 +13,9 @@ echo For safety reasons please open ping.txt with notepad and change * with " st
 echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo If you don't want to crash you computer please exit
 echo Do you want to try this?
-timeout 5 >neq
+timeout 3 >neq
 echo It will start after this
-timeout 5 >neq
+timeout 3 >neq
 pause
 goto ping
 
