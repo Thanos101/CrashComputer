@@ -1,0 +1,22 @@
+@echo off
+cls
+
+echo ----- WARNING -----
+echo This will crash your computer
+echo Many CMD will popout
+sleep 6
+echo ----- How to Stop -----
+echo To stop this, you have to restart or shutdown your computer QUICKLY
+sleep 3
+echo For safety reasons please open ping.txt not ping.bat with notepad and change * with start ping google
+sleep 3
+echo Do you want to try this?
+echo Yes/No
+set /p answer=Type y or n
+if %answer%==y goto start2
+if %answer%==n goto exit
+:start2
+cls
+echo Good Luck
+sleep 5
+echo (Change all of this with sta*rt ping google.com and erase the *)
